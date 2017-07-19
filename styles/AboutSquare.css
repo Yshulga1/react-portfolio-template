@@ -1,0 +1,31 @@
+.about-square-container {
+  min-width: 300px;
+  max-width: 530px;
+  min-height: auto;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  position: relative;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: #101015;
+  -webkit-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+.about-square-title {
+  margin-left: 40px;
+  color: #f0f0f5;
+  padding-bottom: 20px;
+  border-bottom: 1px dotted #149fdb;
+  font-family: 'Tinos', serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+  width: calc(100% - 80px);
+}
+
+@media (max-width: 600px) {
+  .about-square-title {
+    text-align: center;
+  }
+}

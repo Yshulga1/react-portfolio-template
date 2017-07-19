@@ -1,0 +1,54 @@
+.social-square-container {
+  height: 80px;
+  min-width: 80px;
+  margin: 20px 10px;
+  padding-top: 15px;
+  border-radius: 5px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  float: left;
+  margin-top: 0;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  position: relative;
+}
+
+.social-square-container:hover {
+  box-shadow: 0px 3px 17px rgba(0, 0, 0, 0.7);
+}
+
+.social-square-img {
+  position: relative;
+  font-size: 50px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.social-square-link {
+  position: absolute;
+  text-decoration: none;
+  top: 70px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.social-square-behance, .social-square-behance a {
+  background-color: #1769ff;
+  color: #fff;
+}
+
+.social-square-github, .social-square-github a {
+  background-color: #719;
+  color: #fff;
+}
+
+.social-square-linkedin, .social-square-linkedin a {
+  background-color: #0077B5;
+  color: #fff;
+}
+
+.social-square-twitter, .social-square-twitter a {
+  background-color: #1dcaff;
+  color: #fff;
+}

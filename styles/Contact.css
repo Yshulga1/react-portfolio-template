@@ -1,0 +1,132 @@
+.contact-container {
+  display: block;
+  max-width: 800px;
+  width: 95%;
+  color: #fff;
+  font-family: 'Tinos', serif;
+  font-size: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.contact-title {
+  color: #f0f0f5;
+  padding-bottom: 25px;
+  border-bottom: 1px dotted #149fdb;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-blurb {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.contact-link {
+  color: #149fdb;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+.contact-form {
+  margin: 0;
+  margin-bottom: 100px;
+}
+
+.contact-name {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  margin: 10px 0px;
+  position: relative;
+  background-color: #101015;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.contact-name:focus, .contact-email:focus, .contact-message:focus {
+  outline: none;
+}
+
+.contact-email {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0px;
+  background-color: #101015;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.contact-message {
+  width: 100%;
+  height: 200px;
+  background-color: #101015;
+  border: none;
+  margin: 10px auto;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.contact-btn {
+  width: 200px;
+  height: 40px;
+  display: block;
+  background-color: #149fdb;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  margin-top: 10px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.contact-btn:hover, .contact-btn:focus {
+  cursor: pointer;
+  outline: none;
+  -webkit-transform: translate(-50%, 0%) scale(1.1);
+          transform: translate(-50%, 0%) scale(1.1);
+}
+
+.contact-error {
+  border: thick solid #ff2561;
+}
+
+.contact-emailError {
+  color: #ff2561;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+}
+
+.contact-sendError {
+  color: #ff2561;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.contact-sendSuccess {
+  color: #149fdb;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}

@@ -1,0 +1,71 @@
+@media (min-width: 600px) {
+.logo-container {
+  position: relative;
+  height: 150px;
+  width: 100%;
+  background: none;
+}
+
+.logo-img {
+  position: absolute;
+  box-sizing: border-box;
+  background-color: none;
+  height: 150px;
+  width: 150px;
+  margin-top: 40px;
+  margin-left: 50px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.logo-name {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  margin-top: 40px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+}
+
+@media (max-width: 600px) {
+  .logo-container {
+    position: relative;
+    height: 70px;
+    width: 100%;
+    background: #101015;
+    box-shadow: -10px 0px 10px 0px rgba(0,0,0,0.3);
+    display: block;
+    margin-bottom: 80px;
+  }
+
+  .logo-img {
+    position: relative;
+    box-sizing: border-box;
+    background-color: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    cursor: pointer
+  }
+
+  .logo-name {
+    font-family: 'Lato', sans-serif;
+    float: right;
+    color: #fff;
+    position: absolute;
+    font-size: 26px;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    cursor: pointer;
+  }
+}

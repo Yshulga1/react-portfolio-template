@@ -1,0 +1,84 @@
+.project-container {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  height: auto;
+  min-width: 300px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  position: relative;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: #101015;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 20px;
+}
+
+.project-title {
+  margin-top: 0;
+  color: #f0f0f5;
+  padding-bottom: 20px;
+  border-bottom: 1px dotted #149fdb;
+  font-family: 'Tinos', serif;
+  letter-spacing: 1px;
+}
+
+.project-image {
+  position: relative;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.project-description {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 40px;
+}
+
+.project-info {
+  width: calc(100% - 40px);
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.project-date {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #149fdb;
+}
+
+.project-repo {
+  position: absolute;
+  bottom: 18px;
+  right: 0;
+}
+
+.project-repo-disabled {
+  position: absolute;
+  bottom: 18px;
+  right: 0px;
+  color: #555;
+  cursor: default;
+}
+
+.project-page {
+  position: absolute;
+  bottom: 18px;
+  right: 20px;
+}
+
+.project-page-disabled {
+  position: absolute;
+  bottom: 18px;
+  right: 20px;
+  color: #555;
+  cursor: default;
+}
+
+@media (max-width: 600px) {
+  .project-title {
+    text-align: center;
+  }
+}

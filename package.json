@@ -1,0 +1,49 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Brandon Mailhiot Portfolio",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "NODE_ENV=production babel-node --presets 'react,es2015' --plugins 'transform-decorators-legacy,transform-object-rest-spread' server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production webpack --progress --colors",
+    "dev": "webpack-dev-server --progress --colors --inline --hot"
+  },
+  "author": "Brandon Mailhiot",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.20.2",
+    "behance-api": "^1.0.0",
+    "body-parser": "^1.15.2",
+    "dns": "^0.2.2",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "jsonp": "^0.2.1",
+    "net": "^1.0.2",
+    "nodemailer": "^2.7.0",
+    "querystring": "^0.2.0",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-redux": "^4.4.6",
+    "react-router": "^2.6.1",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.7.4",
+    "redux-promise-middleware": "^4.2.0",
+    "redux-thunk": "^2.1.0",
+    "sendmail": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "color": "^1.0.1",
+    "radium": "^0.18.1",
+    "react-styling": "^1.6.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
