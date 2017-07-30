@@ -2,7 +2,7 @@ import axios from 'axios'
 
 export function fetchPosts (slug) {
   return function (dispatch) {
-    axios.get('https://blmgeo-railscms.herokuapp.com/posts/json?user_id=1')
+    axios.get('')
     .then(res => {
       dispatch({
         type: 'FETCH_POSTS',
