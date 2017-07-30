@@ -3,7 +3,7 @@ import jsonp from 'jsonp'
 
 export function fetchProjects () {
   return function (dispatch) {
-    const URL = 'https://api.github.com/users/blmgeo/repos'
+    const URL = ''
     axios.get(URL)
     .then(res => {
       dispatch({
@@ -16,7 +16,7 @@ export function fetchProjects () {
 
 export function fetchDesigns () {
   return function (dispatch) {
-    const URL = 'https://behance.net/v2/users/blmgeo/projects?api_key=OErwfO5RfZaRtYwQhJgK7ed8ooRZkfJm&callback=callback'
+    const URL = ''
     jsonp(URL, function callback(err, data) {
       if (err) throw err
       dispatch({
